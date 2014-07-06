@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		190F6A391969528600D1288D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F6A381969528600D1288D /* AppDelegate.swift */; };
+		190F6A3B1969528600D1288D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F6A3A1969528600D1288D /* ViewController.swift */; };
+		190F6A3E1969528600D1288D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190F6A3C1969528600D1288D /* Main.storyboard */; };
+		190F6A401969528700D1288D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190F6A3F1969528700D1288D /* Images.xcassets */; };
+		190F6A4C1969528700D1288D /* BlurView_iOS8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F6A4B1969528700D1288D /* BlurView_iOS8Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		190F6A461969528700D1288D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 190F6A2B1969528600D1288D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 190F6A321969528600D1288D;
+			remoteInfo = "BlurView~iOS8";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		190F6A331969528600D1288D /* BlurView~iOS8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlurView~iOS8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		190F6A371969528600D1288D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		190F6A381969528600D1288D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		190F6A3A1969528600D1288D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		190F6A3D1969528600D1288D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		190F6A3F1969528700D1288D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		190F6A451969528700D1288D /* BlurView~iOS8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlurView~iOS8Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		190F6A4A1969528700D1288D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		190F6A4B1969528700D1288D /* BlurView_iOS8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView_iOS8Tests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		190F6A301969528600D1288D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190F6A421969528700D1288D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		190F6A2A1969528600D1288D = {
+			isa = PBXGroup;
+			children = (
+				190F6A351969528600D1288D /* BlurView~iOS8 */,
+				190F6A481969528700D1288D /* BlurView~iOS8Tests */,
+				190F6A341969528600D1288D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		190F6A341969528600D1288D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				190F6A331969528600D1288D /* BlurView~iOS8.app */,
+				190F6A451969528700D1288D /* BlurView~iOS8Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		190F6A351969528600D1288D /* BlurView~iOS8 */ = {
+			isa = PBXGroup;
+			children = (
+				190F6A381969528600D1288D /* AppDelegate.swift */,
+				190F6A3A1969528600D1288D /* ViewController.swift */,
+				190F6A3C1969528600D1288D /* Main.storyboard */,
+				190F6A3F1969528700D1288D /* Images.xcassets */,
+				190F6A361969528600D1288D /* Supporting Files */,
+			);
+			path = "BlurView~iOS8";
+			sourceTree = "<group>";
+		};
+		190F6A361969528600D1288D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				190F6A371969528600D1288D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		190F6A481969528700D1288D /* BlurView~iOS8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				190F6A4B1969528700D1288D /* BlurView_iOS8Tests.swift */,
+				190F6A491969528700D1288D /* Supporting Files */,
+			);
+			path = "BlurView~iOS8Tests";
+			sourceTree = "<group>";
+		};
+		190F6A491969528700D1288D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				190F6A4A1969528700D1288D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		190F6A321969528600D1288D /* BlurView~iOS8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190F6A4F1969528700D1288D /* Build configuration list for PBXNativeTarget "BlurView~iOS8" */;
+			buildPhases = (
+				190F6A2F1969528600D1288D /* Sources */,
+				190F6A301969528600D1288D /* Frameworks */,
+				190F6A311969528600D1288D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlurView~iOS8";
+			productName = "BlurView~iOS8";
+			productReference = 190F6A331969528600D1288D /* BlurView~iOS8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		190F6A441969528700D1288D /* BlurView~iOS8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 190F6A521969528700D1288D /* Build configuration list for PBXNativeTarget "BlurView~iOS8Tests" */;
+			buildPhases = (
+				190F6A411969528700D1288D /* Sources */,
+				190F6A421969528700D1288D /* Frameworks */,
+				190F6A431969528700D1288D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				190F6A471969528700D1288D /* PBXTargetDependency */,
+			);
+			name = "BlurView~iOS8Tests";
+			productName = "BlurView~iOS8Tests";
+			productReference = 190F6A451969528700D1288D /* BlurView~iOS8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		190F6A2B1969528600D1288D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Daston;
+				TargetAttributes = {
+					190F6A321969528600D1288D = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					190F6A441969528700D1288D = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 190F6A321969528600D1288D;
+					};
+				};
+			};
+			buildConfigurationList = 190F6A2E1969528600D1288D /* Build configuration list for PBXProject "BlurView~iOS8" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 190F6A2A1969528600D1288D;
+			productRefGroup = 190F6A341969528600D1288D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				190F6A321969528600D1288D /* BlurView~iOS8 */,
+				190F6A441969528700D1288D /* BlurView~iOS8Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		190F6A311969528600D1288D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190F6A3E1969528600D1288D /* Main.storyboard in Resources */,
+				190F6A401969528700D1288D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190F6A431969528700D1288D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		190F6A2F1969528600D1288D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190F6A3B1969528600D1288D /* ViewController.swift in Sources */,
+				190F6A391969528600D1288D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		190F6A411969528700D1288D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				190F6A4C1969528700D1288D /* BlurView_iOS8Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		190F6A471969528700D1288D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 190F6A321969528600D1288D /* BlurView~iOS8 */;
+			targetProxy = 190F6A461969528700D1288D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		190F6A3C1969528600D1288D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				190F6A3D1969528600D1288D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		190F6A4D1969528700D1288D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		190F6A4E1969528700D1288D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		190F6A501969528700D1288D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "BlurView~iOS8/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		190F6A511969528700D1288D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "BlurView~iOS8/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		190F6A531969528700D1288D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlurView~iOS8.app/BlurView~iOS8";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BlurView~iOS8Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		190F6A541969528700D1288D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlurView~iOS8.app/BlurView~iOS8";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BlurView~iOS8Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		190F6A2E1969528600D1288D /* Build configuration list for PBXProject "BlurView~iOS8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190F6A4D1969528700D1288D /* Debug */,
+				190F6A4E1969528700D1288D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		190F6A4F1969528700D1288D /* Build configuration list for PBXNativeTarget "BlurView~iOS8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190F6A501969528700D1288D /* Debug */,
+				190F6A511969528700D1288D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		190F6A521969528700D1288D /* Build configuration list for PBXNativeTarget "BlurView~iOS8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				190F6A531969528700D1288D /* Debug */,
+				190F6A541969528700D1288D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 190F6A2B1969528600D1288D /* Project object */;
+}
