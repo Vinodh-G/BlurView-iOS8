@@ -12,6 +12,8 @@
 		190F6A3E1969528600D1288D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 190F6A3C1969528600D1288D /* Main.storyboard */; };
 		190F6A401969528700D1288D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 190F6A3F1969528700D1288D /* Images.xcassets */; };
 		190F6A4C1969528700D1288D /* BlurView_iOS8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F6A4B1969528700D1288D /* BlurView_iOS8Tests.swift */; };
+		190F6A561969556300D1288D /* BlurBackgroundCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 190F6A551969556300D1288D /* BlurBackgroundCell.swift */; };
+		19E45AAC197312A600D7EF1C /* NatureWallBG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 19E45AA9197312A600D7EF1C /* NatureWallBG.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		190F6A451969528700D1288D /* BlurView~iOS8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlurView~iOS8Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		190F6A4A1969528700D1288D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		190F6A4B1969528700D1288D /* BlurView_iOS8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView_iOS8Tests.swift; sourceTree = "<group>"; };
+		190F6A551969556300D1288D /* BlurBackgroundCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurBackgroundCell.swift; sourceTree = "<group>"; };
+		19E45AA9197312A600D7EF1C /* NatureWallBG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = NatureWallBG.jpg; path = Images.xcassets/NatureWallBG.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 				190F6A381969528600D1288D /* AppDelegate.swift */,
 				190F6A3A1969528600D1288D /* ViewController.swift */,
 				190F6A3C1969528600D1288D /* Main.storyboard */,
+				190F6A551969556300D1288D /* BlurBackgroundCell.swift */,
 				190F6A3F1969528700D1288D /* Images.xcassets */,
+				19E45AA9197312A600D7EF1C /* NatureWallBG.jpg */,
 				190F6A361969528600D1288D /* Supporting Files */,
 			);
 			path = "BlurView~iOS8";
@@ -191,6 +197,7 @@
 			files = (
 				190F6A3E1969528600D1288D /* Main.storyboard in Resources */,
 				190F6A401969528700D1288D /* Images.xcassets in Resources */,
+				19E45AAC197312A600D7EF1C /* NatureWallBG.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190F6A561969556300D1288D /* BlurBackgroundCell.swift in Sources */,
 				190F6A3B1969528600D1288D /* ViewController.swift in Sources */,
 				190F6A391969528600D1288D /* AppDelegate.swift in Sources */,
 			);
@@ -399,6 +407,7 @@
 				190F6A511969528700D1288D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		190F6A521969528700D1288D /* Build configuration list for PBXNativeTarget "BlurView~iOS8Tests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +416,7 @@
 				190F6A541969528700D1288D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
