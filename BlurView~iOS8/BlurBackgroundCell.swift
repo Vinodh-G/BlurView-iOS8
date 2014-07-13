@@ -50,7 +50,7 @@ class BlurBackgroundCell : UITableViewCell
             
             let label = UILabel(frame:CGRectMake(20, 80, 240, 22))
             label.textAlignment = NSTextAlignment.Right
-            label.font = UIFont.systemFontOfSize(18)
+            label.font = UIFont.systemFontOfSize(17)
             label.text = blurTypeText
             label.textColor = color;
             vibrancyView.addSubview(label)
