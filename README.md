@@ -29,7 +29,7 @@ conditions.
 
 ![solarized palette](https://github.com/Vinodh-G/BlurView-iOS8/blob/master/BlurViewScreenShot.png)
 
-![solarized vim](https://github.com/altercation/solarized/raw/master/img/solarized-vim.png)
+![solarized vim](http://i.imgur.com/hGDYiYY.png)
 
 Currently available in formats for (cf [screenshots](#screenshots) below):
 
