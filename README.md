@@ -14,7 +14,7 @@ Solarized
 
 ## Precision colors for machines and people
 
-[![solarized dualmode](https://github.com/altercation/solarized/raw/master/img/solarized-yinyang.png)](#features)
+[![solarized dualmode](https://github.com/Vinodh-G/BlurView-iOS8/blob/master/BlurViewScreenShot.png)](#features)
 
 Solarized is a sixteen color palette (eight monotones, eight accent colors)
 designed for use with terminal and gui applications. It has several [unique
@@ -27,7 +27,7 @@ conditions.
 
 ***See the [changelog] for what's new in the most recent release.***
 
-![solarized palette](https://github.com/altercation/solarized/raw/master/img/solarized-palette.png)
+![solarized palette](https://github.com/Vinodh-G/BlurView-iOS8/blob/master/BlurViewScreenShot.png)
 
 ![solarized vim](https://github.com/altercation/solarized/raw/master/img/solarized-vim.png)
 
