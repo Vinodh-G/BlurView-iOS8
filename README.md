@@ -14,7 +14,7 @@ Solarized
 
 ## Precision colors for machines and people
 
-[![solarized dualmode](https://github.com/Vinodh-G/BlurView-iOS8/blob/master/BlurViewScreenShot.png)](#features)
+[Imgur](http://i.imgur.com/hGDYiYY.png)
 
 Solarized is a sixteen color palette (eight monotones, eight accent colors)
 designed for use with terminal and gui applications. It has several [unique
